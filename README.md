@@ -47,7 +47,7 @@ Data Engineering
 	
 ---
 
-4. 게임 로그 데이터 수집
+4. 로그 데이터 수집
 
 	a. GCP
 	
