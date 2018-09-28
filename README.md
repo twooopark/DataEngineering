@@ -6,9 +6,16 @@ Data Engineering
 
 1. 실습할 VM, OS, DBMS 툴 선택(간단한 비교)
 
-	- VirtualBox, VMware, Hyper 비교(기능, 라이센스 등)
+	- VirtualBox, VMware, Hyper-V 비교
+		
+		- 디스크 IO 성능 : Hyper-V 
+		
+		- 편의성(다중 스냅샷, 디스크 관리 등) : VMware
+	
 	
 	- CentOS, Ubuntu 비교(방화벽 등)
+	
+		- CentOS7
 	
 	- Mysql, Mssql 비교(엔진, 복제 등)
   
