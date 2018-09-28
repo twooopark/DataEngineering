@@ -90,16 +90,20 @@ Data Engineering
 				- eventual consistency
 
 			- 출처: http://bcho.tistory.com/1116 [조대협의 블로그]
+		
+		- Cloud Dataflow
+			
+			- 스트림(실시간) 및 기록 모드에서 데이터를 변환하고 강화하는 전체 관리형 서비스
+			
+			- Apache Beam SDK에서 표현식을 사용하는 자바 및 Python API를 통해 빠르고 단순한 파이프라인 개발을 지원
 	
 	- 저장소
 	
 		- Cloud Storage
-				
-			-보안 및 내구성이 우수한 저장소로 설계
-			
-			- 단일 통합 API로 저장소를 앱에 통합
 		
-			- 객체 수명 주기 관리로 4가지 저장소 등급의 가격/성능을 최적화
+			- 개발자와 기업을 위한 통합 객체 저장소
+			
+			- 객체 수명 주기 관리 기능
 		
 			- 용도 예시
 			
@@ -130,15 +134,36 @@ Data Engineering
 			
 			- https://firebase.google.com/products/realtime-database/
 	
+
+	- 로그 수집을 위한 ETL Tool 비교
 	
-	- 로그 수집 도구(ETL 도구)
+		- Pentaho Data Integration (Hitachi Vantara)
+			
+		- Talend Open Studio (Talend)
+		
+		- PowerCenter (Informatica)
+		
+		- https://www.etltool.com/list-of-etl-tools/
+				
+---
+
+5. Data Engineering?
 	
-		- Pentaho PDI (Hitachi Vantara)
+	- 정의
+
+6. Data Pipeline?
+
+	- 정의
+	
+	- 구조 예시
 		
-			- DB에 연결하여 Query를 실행하여 얻은 결과를 Script를 통해 json형식으로 저장
-			
-			- 위와 같은 작업(Transformation)을 Job을 통해 묶음 처리, 스케쥴 생성 가능
-			
-		- Talend
+		- 구조별 특징, 장단점, 사용예시
 		
-			- 유사...
+		- Hadoop Eco, Elastic Stack, GCP 등
+
+7. 5, 6번을 주제로 발표
+
+	- 10/05 목차 검토 
+
+	- 10/12 발표
+
